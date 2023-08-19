@@ -6,7 +6,8 @@ Various macOS patches to enable GPIO interrupt mode on the Asus C425. Includes t
 
 ----------------------
 
-- Replace VoodooGPIO.kext from `Kexts\VoodooI2C.kext\Contents\PlugIns` with the one from this GitHub repo.
+- ~~Replace VoodooGPIO.kext from `Kexts\VoodooI2C.kext\Contents\PlugIns` with the one from this GitHub repo.~~
+  - The changes have been merged upstream, this should no longer be needed.
 - The changes to VoodooGPIO are available at: https://github.com/VoodooI2C/VoodooGPIO/pull/15
 - The `config.plist` patch **is required** and can be found in the decompiled version of SSDT-I2C and/or `patches_GPIO.plist`.
 
